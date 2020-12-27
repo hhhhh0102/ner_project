@@ -4,13 +4,16 @@ NER 예측 모듈
 ## evaluate.ipynb
 NER 모듈의 성과지표를 계산하고, 계산된 값을 저장하는 모듈
 
-## pre_trained_data.txt
+## dataset
+팩타고라의 의견, 이벤트, 정의, 예측 피드에서 100개를 추출하여 정답지 파일을 수기로 작성하였습니다.
+
+### pre_trained_data.txt
 NER값을 계산 하려는 한글 텍스트 파일
 
-## ner_result.txt
+### ner_result.txt
 예측된 NER값 파일
 
-## ner_train_data.txt
+### ner_train_data.txt
 NER 정답지 파일
 
 ## ner_model
@@ -28,3 +31,6 @@ bert 모델을 사용하기 위해 input의 사이즈를 조정하는 모듈입�
 
 #### make_model.py
 NER 예측 모델을 만드는 모듈입니다
+
+#### train_data
+Naver와 창원대의 NLP challage에서 개발한 한국어 데이터셋입니다. 총 29개의 카테고리(태그)를 제시합니다. 
