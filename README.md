@@ -1,6 +1,3 @@
-# ner_project
-링크인턴 얼리버드프로젝트 과제
-
 # ner_task.ipynb
 NER 예측 모듈
 
@@ -20,14 +17,14 @@ NER 정답지 파일
 bert를 이용한 ner 예측 모델을 만들기 위한 라이브러리 입니다
 https://github.com/kimwoonggon/publicservant_AI/blob/master/5_(BERT_실습)한국어_개체명_인식.ipynb 를 참조하였습니다.
 
-## Preprocess.py
+### Preprocess.py
 dataset의 전처리를 하는 모듈입니다
 
-## tokenizer.py
+### tokenizer.py
 한글 토크나이징을 위한 모듈입니다
 
-## make_input.py
+### make_input.py
 bert 모델을 사용하기 위해 input의 사이즈를 조정하는 모듈입니다
 
-## make_model.py
+### make_model.py
 NER 예측 모델을 만드는 모듈입니다
